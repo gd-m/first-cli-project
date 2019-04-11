@@ -1,0 +1,11 @@
+require_relative "../lib/cli.rb"
+require_relative "../lib/albums.rb"
+require_relative "../lib/scraper.rb"
+
+require 'nokogiri'
+require 'open-uri'
+require 'pry'
+require 'colorize'
+
+
+Cli.new.run
